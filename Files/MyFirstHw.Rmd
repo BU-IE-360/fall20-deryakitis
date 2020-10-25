@@ -1,0 +1,28 @@
+---
+title: "Forecasting applications with R"
+author: "Derya Kitis - IE360 - Fall 2020"
+---
+  ```{r,echo=FALSE,results="hide"}
+library(knitr)
+opts_chunk$set(tidy.opts=list(width.cutoff=60),tidy=TRUE)
+```
+
+1.[Time series forecasting using ARIMA models](https://blogs.oracle.com/datascience/introduction-to-forecasting-with-arima-in-r)
+
+This example is important because it introduces the forecasting methodology using ARIMA models in R. 
+
+2.[Forecasting in R with Prophet](https://mode.com/example-gallery/forecasting_prophet_r_cookbook/)
+
+The importance of this example stems from the fact that it describes Forecasting in R with Propheta which is a forecasting procedure implemented in R and Python.
+
+3.[An overview of time series forecasting models](https://towardsdatascience.com/an-overview-of-time-series-forecasting-models-a2fa7a358fcb)
+
+This example provides an overview of the main models which are developed in R and Python available for modelling univariate time series and forecasting their evolution.
+
+4.[Using the R-package to forecast time series: ARIMA models and Application](https://www.researchgate.net/publication/274249061_Using_the_R-package_to_forecast_time_series_ARIMA_models_and_Application)
+
+This article  describes  some  tools  of R related  to  the  time  series  modeling  by ARIMA processes, providing  graphical  and numerical results for some real data. 
+
+5.[Time Series Analysis and Order Prediction with R ](https://mran.microsoft.com/posts/timeseries)
+
+This example is significant in a way that it explains Time series analysis and order prediction with R. 
