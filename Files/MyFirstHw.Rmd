@@ -1,0 +1,28 @@
+---
+title: "Forecasting applications with R"
+author: "Derya Kitis - IE360 - Fall 2020"
+---
+  ```{r,echo=FALSE,results="hide"}
+library(knitr)
+opts_chunk$set(tidy.opts=list(width.cutoff=60),tidy=TRUE)
+```
+
+1.[Time series forecasting using ARIMA models](https://blogs.oracle.com/datascience/introduction-to-forecasting-with-arima-in-r)
+
+This example is important because it introduces the forecasting methodology using ARIMA models in R. 
+
+2.A(https://medium.com/@statswork/application-of-time-series-analysis-in-financial-economics-c1a7e1b69d04)
+
+3.B(https://towardsdatascience.com/time-series-forecasting-in-real-life-budget-forecasting-with-arima-d5ec57e634cb)
+
+4.C(https://medium.com/@llmkhoa511/time-series-analysis-and-weather-forecast-in-python-e80b664c7f71)
+C2(https://towardsdatascience.com/rainfall-time-series-analysis-and-forecasting-87a29316494e)
+
+C3(https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.417.733&rep=rep1&type=pdf)
+
+C4(http://www.international-agrophysics.org/Forecasting-daily-meteorological-time-series-using-ARIMA-and-regression-models,104317,0,2.html)
+
+5.D(https://bmcmedinformdecismak.biomedcentral.com/articles/10.1186/s12911-018-0616-8)
+
+6.E(https://ieeexplore.ieee.org/document/7987292)
+
