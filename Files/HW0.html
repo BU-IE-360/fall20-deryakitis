@@ -12,7 +12,7 @@
 <meta name="author" content="Derya Kitis - IE360 - Fall 2020" />
 
 
-<title>Forecasting applications with R</title>
+<title>Forecasting applications</title>
 
 <script>// Pandoc 2.9 adds attributes on both header and div. We remove the former (to
 // be compatible with the behavior of Pandoc < 2.8).
@@ -423,21 +423,26 @@ summary {
 
 
 
-<h1 class="title toc-ignore">Forecasting applications with R</h1>
+<h1 class="title toc-ignore">Forecasting applications</h1>
 <h4 class="author">Derya Kitis - IE360 - Fall 2020</h4>
 
 </div>
 
 
 <p>1.<a href="https://blogs.oracle.com/datascience/introduction-to-forecasting-with-arima-in-r">Time series forecasting using ARIMA models</a></p>
-<p>This example is important because it introduces the forecasting methodology using ARIMA models in R.</p>
-<p>2.A(<a href="https://medium.com/@statswork/application-of-time-series-analysis-in-financial-economics-c1a7e1b69d04" class="uri">https://medium.com/@statswork/application-of-time-series-analysis-in-financial-economics-c1a7e1b69d04</a>)</p>
-<p>3.B(<a href="https://towardsdatascience.com/time-series-forecasting-in-real-life-budget-forecasting-with-arima-d5ec57e634cb" class="uri">https://towardsdatascience.com/time-series-forecasting-in-real-life-budget-forecasting-with-arima-d5ec57e634cb</a>)</p>
-<p>4.C(<a href="https://medium.com/@llmkhoa511/time-series-analysis-and-weather-forecast-in-python-e80b664c7f71" class="uri">https://medium.com/@llmkhoa511/time-series-analysis-and-weather-forecast-in-python-e80b664c7f71</a>) C2(<a href="https://towardsdatascience.com/rainfall-time-series-analysis-and-forecasting-87a29316494e" class="uri">https://towardsdatascience.com/rainfall-time-series-analysis-and-forecasting-87a29316494e</a>)</p>
-<p>C3(<a href="https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.417.733&amp;rep=rep1&amp;type=pdf" class="uri">https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.417.733&amp;rep=rep1&amp;type=pdf</a>)</p>
-<p>C4(<a href="http://www.international-agrophysics.org/Forecasting-daily-meteorological-time-series-using-ARIMA-and-regression-models,104317,0,2.html" class="uri">http://www.international-agrophysics.org/Forecasting-daily-meteorological-time-series-using-ARIMA-and-regression-models,104317,0,2.html</a>)</p>
-<p>5.D(<a href="https://bmcmedinformdecismak.biomedcentral.com/articles/10.1186/s12911-018-0616-8" class="uri">https://bmcmedinformdecismak.biomedcentral.com/articles/10.1186/s12911-018-0616-8</a>)</p>
-<p>6.E(<a href="https://ieeexplore.ieee.org/document/7987292" class="uri">https://ieeexplore.ieee.org/document/7987292</a>)</p>
+<p>This example is important because it introduces the forecasting methodology using ARIMA models in R. The steps are: 1. Examine Your Data 2. Decompose Your Data 3. Stationarity 4. Autocorrelations and Choosing Model Order 5. Fitting an ARIMA model 6. Evaluate and Iterate</p>
+<p>2.<a href="https://medium.com/@statswork/application-of-time-series-analysis-in-financial-economics-c1a7e1b69d04">Application Of Time Series Analysis In Financial Economics</a></p>
+<p>Time series in financial economics are highly important to analyze the trend or pattern of the variable of interest using an appropriate model. Any financial organization relies on time series forecasting to build their marketing strategy to meet the customer’s needs.</p>
+<p>In the first example, the daily values of the data with the time factors available between 2010 and 2016 from the Yahoo Finance repository is analyzed, and also another dataset from Kaggle is used to forecast the market sentiment. The second example clearly depicts the trend in the price of the stock and this trend may be helpful in predicting future stock values using suitable models. In the third example, the trend of the sales and tractor demand in a manufacturing company has been analyzed. If the company is interested in understanding the impact of marketing efforts on sales; the pattern of the sales and demand can be viewed using a well-known ARIMA model and the sales/demand can be predicted for the upcoming years.</p>
+<p>3.<a href="https://bmcmedinformdecismak.biomedcentral.com/articles/10.1186/s12911-018-0616-8">Time series model for forecasting the number of new admission inpatients</a></p>
+<p>Since hospital crowding is a rising problem, effective predicting and detecting managment is crucial and can be helpful to reduce crowding.</p>
+<p>In the application, the single seasonal ARIMA (SARIMA), NARNN and the hybrid SARIMA-NARNN model is used to fit and forecast the monthly and daily number of new admission inpatients. The root mean square error, mean absolute error and mean absolute percentage error were used to compare the forecasting performance among the three models.</p>
+<p>4.<a href="https://ieeexplore.ieee.org/document/7987292">Time-series models for cloud workload prediction</a></p>
+<p>Dynamic cloud workloads necessitate forecasting methodologies for accurate resource provisioning affecting both cloud providers and clients. This application’s importance stems from the fact that it is focusing on forecasting in the cloud in order to understand its underlying workload dynamics.</p>
+<p>This application involves the analyze of recent workload traces and discovers characteristics that are not adequately captured by traditional linear &amp; nonlinear models employed for forecasting in the cloud. This research involves a comprehensive statistical analysis of several workloads realized from production cloud environments. Climatology and Weather Forecasting is important since it helps determine future climate expectations. Using time series analysis on weather forecasting helps</p>
+<p>5.<a href="https://towardsdatascience.com/rainfall-time-series-analysis-and-forecasting-87a29316494e">Rainfall Time Series Analysis and Forecasting</a></p>
+<p>This application is so important because in the tropics region which several countries only had two seasons in a year, many countries which rely so much on agricultural commodities will need to forecast rainfall in term to decide the best time to start planting their products and maximizing their harvest.</p>
+<p>In this article, Rainfall forecasting in Banten Province located in Indonesia is done by using historical rainfall data and using R Language. The steps are as follows: importing and selecting data, exploratory time series data analysis, decomposition, seasonality analysis, choosing the right model and building the model.</p>
 
 
 
