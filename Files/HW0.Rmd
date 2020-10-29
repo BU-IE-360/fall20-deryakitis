@@ -1,5 +1,5 @@
 ---
-title: " Forecasting applications "
+title: ' Forecasting applications '
 author: "Derya Kitis - IE360 - Fall 2020"
 ---
   ```{r,echo=FALSE,results="hide"}
@@ -36,8 +36,6 @@ In the application, the single seasonal ARIMA (SARIMA), NARNN and the hybrid SAR
 Dynamic cloud workloads necessitate forecasting methodologies for accurate resource provisioning affecting both cloud providers and clients. This application's importance stems from the fact that it is focusing on forecasting in the cloud in order to understand its underlying workload dynamics. 
 
 This application involves the analyze of recent workload traces and discovers characteristics that are not adequately captured by traditional linear & nonlinear models employed for forecasting in the cloud. This research involves a comprehensive statistical analysis of several workloads realized from production cloud environments.
-Climatology and Weather Forecasting is important since it helps determine future climate expectations. Using time series analysis on weather forecasting helps
-
 
 5.[Rainfall Time Series Analysis and Forecasting](https://towardsdatascience.com/rainfall-time-series-analysis-and-forecasting-87a29316494e)
 
